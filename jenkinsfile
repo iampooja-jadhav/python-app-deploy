@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        SSH_CRED = 'python-key'
-        SERVER_IP = '172.31.23.157'
+        SSH_CRED = 'node-app-key'
+        SERVER_IP = '54.151.73.245'
         REMOTE_USER = 'ubuntu'
-        APP_DIR = '/home/ubuntu/python-app-deploy'
+        APP_DIR = '/home/ubuntu/pythonapp'
     }
 
     stages {
